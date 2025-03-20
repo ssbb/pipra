@@ -559,7 +559,7 @@
       "plot": "../production/pcb_gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../production/pipra.step",
       "svg": "",
       "vrml": ""
     },
