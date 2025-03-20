@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pipra")(type "KiCad")(uri "/Users/ssbb/Workspace/pipra/lib/pipra.kicad_sym")(options "")(descr ""))
+)
