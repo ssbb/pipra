@@ -24,3 +24,9 @@ This keyboard uses 18x16mm spacing, which means you'll need custom keycaps. I’
 You'll need a 1.5mm metal plate with threaded holes. I used SendCutSend, but you're free to use any laser cutting service. Powder coating is not recommended, as it may alter the cutout dimensions and cause sliders to get stuck in the housings.
 
 Most laser cutting services offer thread tapping, but you can also use a cheap M2 tap yourself.
+
+## Support
+
+[ZMK Firmware](https://github.com/ssbb/pipra-zmk-config)
+
+Feel free to ask any questions in `#ssbb` channel on Absolem Club discord server ([invite](https://discord.gg/DbCfZfZ)).
