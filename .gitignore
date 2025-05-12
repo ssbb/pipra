@@ -31,3 +31,5 @@ fp-info-cache
 *.csv
 
 production/*_gerbers
+production/backups
+pcb/production

@@ -6508,153 +6508,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pipra:EC_SW"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 3.81 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EC_SW"
-				(at -3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EC_SW_0_1"
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -1.27)
-					(mid 0 -3.052)
-					(end -5.08 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "EC_SW_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "SG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pipra:Earth_R"
 			(power)
 			(pin_numbers
@@ -8189,6 +8042,153 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ssbb_parts:EC_SW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EC_SW"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EC_SW_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -1.27)
+					(mid 0 -3.052)
+					(end -5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EC_SW_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19239,17 +19239,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 482.6 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05c03bd2-245c-461d-b0d2-6be328af2404")
 		(property "Reference" "SW35"
-			(at 482.6 247.65 0)
+			(at 482.6 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19257,14 +19257,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 482.6 250.19 0)
+			(at 482.6 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 482.6 254 0)
 			(effects
 				(font
@@ -20736,17 +20736,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 92.71 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "161b949f-c6d9-4065-84c9-5d0d8d0a7c6d")
 		(property "Reference" "SW5"
-			(at 92.71 212.09 0)
+			(at 92.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20754,14 +20754,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 92.71 214.63 0)
+			(at 92.71 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -21413,9 +21413,9 @@
 		(at 596.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1e5712ed-43a7-4e64-b65c-8279ec4014b1")
 		(property "Reference" "D6"
@@ -22114,17 +22114,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 421.64 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "259843f0-f7de-4bde-8b79-f888dd31d293")
 		(property "Reference" "SW28"
-			(at 421.64 229.87 0)
+			(at 421.64 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,14 +22132,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 421.64 232.41 0)
+			(at 421.64 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 421.64 236.22 0)
 			(effects
 				(font
@@ -22184,17 +22184,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 381 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "265cfeb3-7327-4348-b1a4-bf2504f44439")
 		(property "Reference" "SW26"
-			(at 381 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22202,14 +22202,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 381 232.41 0)
+			(at 381 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 381 236.22 0)
 			(effects
 				(font
@@ -22799,17 +22799,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 92.71 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29c7aedf-7f65-4446-8500-eaf280d7716a")
 		(property "Reference" "SW10"
-			(at 92.71 229.87 0)
+			(at 92.71 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,14 +22817,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 92.71 232.41 0)
+			(at 92.71 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 92.71 236.22 0)
 			(effects
 				(font
@@ -22869,17 +22869,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 462.28 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b5fca1e-194b-4d38-bbf6-2b682e9d14a8")
 		(property "Reference" "SW25"
-			(at 462.28 212.09 0)
+			(at 462.28 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,14 +22887,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 462.28 214.63 0)
+			(at 462.28 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 462.28 218.44 0)
 			(effects
 				(font
@@ -23494,6 +23494,15 @@
 			)
 		)
 		(property "LCSC" "C165948"
+			(at 365.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,1.4605"
 			(at 365.76 43.18 0)
 			(effects
 				(font
@@ -25242,17 +25251,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 72.39 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a87a948-4f88-4b16-b36b-a794366ae5fc")
 		(property "Reference" "SW9"
-			(at 72.39 229.87 0)
+			(at 72.39 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25260,14 +25269,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 72.39 232.41 0)
+			(at 72.39 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 72.39 236.22 0)
 			(effects
 				(font
@@ -25312,17 +25321,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 52.07 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b20be9b-1f9a-4d21-bf63-a2fa16ad19db")
 		(property "Reference" "SW8"
-			(at 52.07 229.87 0)
+			(at 52.07 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25330,14 +25339,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 52.07 232.41 0)
+			(at 52.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 52.07 236.22 0)
 			(effects
 				(font
@@ -25587,17 +25596,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 113.03 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4fdf0caf-4afd-42e1-9dbb-21ef6e4f0570")
 		(property "Reference" "SW11"
-			(at 113.03 229.87 0)
+			(at 113.03 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25605,14 +25614,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 113.03 232.41 0)
+			(at 113.03 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 113.03 236.22 0)
 			(effects
 				(font
@@ -25851,17 +25860,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 72.39 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5167f8b8-314a-4bc6-b09f-500a699468be")
 		(property "Reference" "SW14"
-			(at 72.39 247.65 0)
+			(at 72.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25869,14 +25878,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 72.39 250.19 0)
+			(at 72.39 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 72.39 254 0)
 			(effects
 				(font
@@ -26085,17 +26094,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 381 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52e61e16-e598-4a51-8523-118ca8fff0c7")
 		(property "Reference" "SW21"
-			(at 381 212.09 0)
+			(at 381 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26103,14 +26112,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 381 214.63 0)
+			(at 381 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 381 218.44 0)
 			(effects
 				(font
@@ -26155,17 +26164,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 52.07 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5442fad4-55e4-4b4a-9e3f-33f7dd535ae2")
 		(property "Reference" "SW3"
-			(at 52.07 212.09 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,14 +26182,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 52.07 214.63 0)
+			(at 52.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 52.07 218.44 0)
 			(effects
 				(font
@@ -27058,17 +27067,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 401.32 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5f5ce7ef-b96e-467b-837f-17e0e8ffcb4d")
 		(property "Reference" "SW22"
-			(at 401.32 212.09 0)
+			(at 401.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27076,14 +27085,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 401.32 214.63 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 401.32 218.44 0)
 			(effects
 				(font
@@ -27499,6 +27508,15 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 626.11 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c38d0974-bd07-462a-ab7f-c0acf14c1772")
 		)
@@ -27803,6 +27821,15 @@
 			)
 		)
 		(property "LCSC" "C2836319"
+			(at 424.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 424.18 64.77 0)
 			(effects
 				(font
@@ -28275,9 +28302,9 @@
 		(at 267.97 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e798b43-8c2a-42d4-a45f-77ac5847c2af")
 		(property "Reference" "D4"
@@ -28495,7 +28522,7 @@
 		(at 408.94 288.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -28826,17 +28853,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 421.64 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "73521f11-7ba4-45da-adca-8f7f767424a2")
 		(property "Reference" "SW33"
-			(at 421.64 247.65 0)
+			(at 421.64 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28844,14 +28871,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 421.64 250.19 0)
+			(at 421.64 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 421.64 254 0)
 			(effects
 				(font
@@ -29495,7 +29522,7 @@
 		(at 632.46 247.65 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -29914,17 +29941,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 133.35 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "805f4e33-57ca-46ae-964d-cf9f46d7d596")
 		(property "Reference" "SW12"
-			(at 133.35 229.87 0)
+			(at 133.35 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29932,14 +29959,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 133.35 232.41 0)
+			(at 133.35 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -29984,17 +30011,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 441.96 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "822b3724-82a3-43f2-b96a-9cb6052128b8")
 		(property "Reference" "SW34"
-			(at 441.96 247.65 0)
+			(at 441.96 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30002,14 +30029,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 441.96 250.19 0)
+			(at 441.96 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 441.96 254 0)
 			(effects
 				(font
@@ -30258,17 +30285,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 421.64 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8539f774-a66d-424c-a8f5-8bfddb180636")
 		(property "Reference" "SW23"
-			(at 421.64 212.09 0)
+			(at 421.64 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30276,14 +30303,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 421.64 214.63 0)
+			(at 421.64 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 421.64 218.44 0)
 			(effects
 				(font
@@ -31899,6 +31926,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7508af30-f5d7-4c6d-b416-df511d2ec835")
 		)
@@ -32211,7 +32247,7 @@
 		(at 80.01 288.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -32275,17 +32311,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 133.35 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a00cdd8e-dda9-4bea-8687-94cdd9b8317b")
 		(property "Reference" "SW7"
-			(at 133.35 212.09 0)
+			(at 133.35 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32293,14 +32329,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 133.35 214.63 0)
+			(at 133.35 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 133.35 218.44 0)
 			(effects
 				(font
@@ -32643,17 +32679,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 113.03 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a39e854c-d11b-43f2-93a1-bb7d1d138745")
 		(property "Reference" "SW6"
-			(at 113.03 212.09 0)
+			(at 113.03 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32661,14 +32697,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 113.03 214.63 0)
+			(at 113.03 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 113.03 218.44 0)
 			(effects
 				(font
@@ -32793,9 +32829,9 @@
 		(at 267.97 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4714b1d-ea7c-4f2d-949f-9a4c80baa3a5")
 		(property "Reference" "D3"
@@ -33184,6 +33220,24 @@
 			)
 		)
 		(property "LCSC" "C356849"
+			(at 525.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 525.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-1.9685"
 			(at 525.78 68.58 0)
 			(effects
 				(font
@@ -33677,6 +33731,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" "0,1.4605"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "086791b0-2809-48cc-aa4a-d1c94f82838b")
 		)
@@ -33738,17 +33801,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 72.39 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "abd0ed7f-12b0-41d8-bd8d-a8072f606273")
 		(property "Reference" "SW4"
-			(at 72.39 212.09 0)
+			(at 72.39 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33756,14 +33819,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 72.39 214.63 0)
+			(at 72.39 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 72.39 218.44 0)
 			(effects
 				(font
@@ -34032,17 +34095,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 113.03 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b1bae740-24b2-44e8-a78e-930c3171cc46")
 		(property "Reference" "SW16"
-			(at 113.03 247.65 0)
+			(at 113.03 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34050,14 +34113,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 113.03 250.19 0)
+			(at 113.03 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 113.03 254 0)
 			(effects
 				(font
@@ -34396,17 +34459,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 462.28 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5f119a9-3402-4f97-b205-7b0e4920d8c2")
 		(property "Reference" "SW30"
-			(at 462.28 229.87 0)
+			(at 462.28 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34414,14 +34477,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 462.28 232.41 0)
+			(at 462.28 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 462.28 236.22 0)
 			(effects
 				(font
@@ -35212,17 +35275,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 401.32 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bac51277-6450-4147-9846-084c70a27bb4")
 		(property "Reference" "SW27"
-			(at 401.32 229.87 0)
+			(at 401.32 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35230,14 +35293,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 401.32 232.41 0)
+			(at 401.32 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 401.32 236.22 0)
 			(effects
 				(font
@@ -35643,17 +35706,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 153.67 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bffe7714-31cf-4c82-9dfa-126ae99401cb")
 		(property "Reference" "SW13"
-			(at 153.67 229.87 0)
+			(at 153.67 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35661,14 +35724,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 153.67 232.41 0)
+			(at 153.67 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 153.67 236.22 0)
 			(effects
 				(font
@@ -35713,17 +35776,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 92.71 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c2397649-572c-4f42-9dd8-ab175de9afce")
 		(property "Reference" "SW15"
-			(at 92.71 247.65 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35731,14 +35794,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 92.71 250.19 0)
+			(at 92.71 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 92.71 254 0)
 			(effects
 				(font
@@ -36359,9 +36422,9 @@
 		(at 596.9 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb58c782-c7cd-4d15-aa0c-e698229bd6be")
 		(property "Reference" "D7"
@@ -37150,17 +37213,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 482.6 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d465bcdd-cccb-4f0e-9c88-bb2069a2b075")
 		(property "Reference" "SW31"
-			(at 482.6 229.87 0)
+			(at 482.6 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37168,14 +37231,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 482.6 232.41 0)
+			(at 482.6 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 482.6 236.22 0)
 			(effects
 				(font
@@ -37341,6 +37404,24 @@
 			)
 		)
 		(property "LCSC" "C356849"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-1.9685"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -37689,9 +37770,9 @@
 		(at 596.9 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd172e2e-ff14-4d5d-b168-6dafc5abcce4")
 		(property "Reference" "D8"
@@ -39349,6 +39430,15 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2fd166d-569a-4039-aff7-7ede4f3b0cae")
 		)
@@ -40010,17 +40100,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 153.67 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f59370ea-3e34-4408-8f85-9e02d4fd5824")
 		(property "Reference" "SW17"
-			(at 153.67 247.65 0)
+			(at 153.67 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40028,14 +40118,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 153.67 250.19 0)
+			(at 153.67 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 153.67 254 0)
 			(effects
 				(font
@@ -40146,17 +40236,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 441.96 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6873b0e-1912-4277-840c-1a056e70ca7c")
 		(property "Reference" "SW24"
-			(at 441.96 212.09 0)
+			(at 441.96 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40164,14 +40254,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 441.96 214.63 0)
+			(at 441.96 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 441.96 218.44 0)
 			(effects
 				(font
@@ -40677,17 +40767,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 401.32 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb2a4a23-fb01-4ead-b52c-884d53cf0866")
 		(property "Reference" "SW32"
-			(at 401.32 247.65 0)
+			(at 401.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40695,14 +40785,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 401.32 250.19 0)
+			(at 401.32 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 401.32 254 0)
 			(effects
 				(font
@@ -41013,9 +41103,9 @@
 		(at 267.97 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc7632b5-4c47-4d6c-944b-48a4c8ba19f8")
 		(property "Reference" "D2"
@@ -41086,17 +41176,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pipra:EC_SW")
+		(lib_id "ssbb_parts:EC_SW")
 		(at 441.96 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fca57439-5b7a-4d11-b4f7-c13c91a32c9c")
 		(property "Reference" "SW29"
-			(at 441.96 229.87 0)
+			(at 441.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41104,14 +41194,14 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 441.96 232.41 0)
+			(at 441.96 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:EC_Pad_L84"
+		(property "Footprint" "ssbb_parts:EC_Pad_L84_18x16"
 			(at 441.96 236.22 0)
 			(effects
 				(font
