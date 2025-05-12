@@ -10,7 +10,7 @@ The PCB can be assembled via JLCPCB. See production files in the `production` di
 
 ### EC Parts
 
-The only way to get switches currently is to use a Niz L84 or L99 keyboard as a donor. Search Taobao, e.g., [this](https://detail.tmall.com/item.htm?_u=d20fti35341a4a&id=878704443735&skuId=5947860879567) or [this](https://item.taobao.com/item.htm?id=865123524234&skuId=5789959885060).
+The only way to get switches currently is to use a Niz L84 or L99 keyboard as a donor. Search Taobao, e.g., [this](https://detail.tmall.com/item.htm?id=878704443735&skuId=5947860879567) or [this](https://item.taobao.com/item.htm?id=865123524234&skuId=5789959885060).
 
 ### Keycaps
 
