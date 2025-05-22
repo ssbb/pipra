@@ -9709,6 +9709,10 @@
 		(uuid "1d39f1f8-901d-4414-8a93-9eca180050e4")
 	)
 	(no_connect
+		(at 548.64 81.28)
+		(uuid "3daf1b23-6ed1-4728-88c0-3e01935859eb")
+	)
+	(no_connect
 		(at 144.78 60.96)
 		(uuid "3db62d58-7f2c-4278-b523-5baed6c68b46")
 	)
@@ -9815,10 +9819,6 @@
 	(no_connect
 		(at 219.71 99.06)
 		(uuid "e962d97b-ebc9-4871-99db-28ecfd460e18")
-	)
-	(no_connect
-		(at 548.64 88.9)
-		(uuid "ecc84230-7335-4ad6-97ab-6ba62a138427")
 	)
 	(no_connect
 		(at 173.99 96.52)
@@ -15908,7 +15908,7 @@
 	)
 	(global_label "LED_YELLOW_R"
 		(shape input)
-		(at 548.64 83.82 0)
+		(at 548.64 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15918,7 +15918,7 @@
 		)
 		(uuid "04457ac9-9f14-47c6-962a-8babd741e689")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 565.3532 83.82 0)
+			(at 565.3532 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,28 +16566,6 @@
 			)
 		)
 	)
-	(global_label "LED_GREEN_R"
-		(shape input)
-		(at 548.64 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4261d83e-7352-4d2b-9909-2aa37159fb23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 564.446 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENCODER_SWITCH"
 		(shape input)
 		(at 40.64 285.75 180)
@@ -16975,6 +16953,28 @@
 		(uuid "5d1bd372-6ccd-4130-9f42-093d9ef5ad26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 21.0279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_GREEN_R"
+		(shape input)
+		(at 548.64 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d43d489-5c67-4453-a476-486bcc867b62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 564.446 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,7 +17448,7 @@
 	)
 	(global_label "LED_RED_R"
 		(shape input)
-		(at 548.64 81.28 0)
+		(at 548.64 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17458,7 +17458,7 @@
 		)
 		(uuid "7ee61a6a-8691-4075-9b82-60cdec351e5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 561.9665 81.28 0)
+			(at 561.9665 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
